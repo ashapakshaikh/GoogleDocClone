@@ -1,0 +1,21 @@
+{
+  "name": "googletext",
+  "description": "",
+  "main": "server.js",
+  "authors": [
+    "ashapakshaikh <ashapakshaikh1@gmail.com>"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/ashapakshaikh/nodejspractics",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "angularjs#^1.7.5",
+    "angular-ui-router": "^1.0.20"
+  }
+}
