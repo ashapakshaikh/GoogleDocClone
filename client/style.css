@@ -1,0 +1,14 @@
+.container{
+    margin-right: auto;
+    margin-left:auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.card{
+ border: 1px solid grey;
+ min-height: 800px;
+ padding: 6px 12px;
+ box-shadow: 2px 2px grey;
+ margin-top: 20px;
+}
