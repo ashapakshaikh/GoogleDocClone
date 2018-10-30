@@ -1,0 +1,33 @@
+
+
+.design{
+	margin-left: -130px;
+}
+
+
+.share{
+	float: right;
+}
+.finame{
+	margin-left: 20px;
+}
+.mdname{
+    margin-left: 20px;
+}
+.laname{
+   margin-left: 20px;
+}
+
+.card-title{
+	text-align: center;
+	margin-top: 5px;
+}
+.card{
+	margin-top: 40px;
+	border-left-width: 2px solid;
+	 color:blue;
+}
+.output{
+	color: red;
+	margin-left: 20px;
+}
