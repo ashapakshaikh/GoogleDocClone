@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Angularjs controller</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+</head>
+<body>
+    <div ng-app="firstApp" ng-controller="firstCtrl">
+    	First Name:<input type="text" ng-model="firstName" required>
+    	Middle Name:<input type="text" ng-model="middleName" required>
+    	Last Name:<input type="text" ng-model="lastName" required>
+    	Email Id:<input type="Email" ng-model="email" required>
+    	<br>
+         Full Name:{{firstName+ " " +middleName + " " +lastName}}
+         <br>
+         Email Id:{{email}}
+
+         <script>
+         	var app = angular.module('firstApp', []);
+         	app.controller('firstCtrl', function ($scope){
+         		$scope.firstName = "Ashpak";
+         		$scope.middleName = "Husen";
+         		$scope.lastName = "shaikh";
+         		$scope.email = "ash@gmail.com";
+         	});
+         </script>
+    </div>
+</body>
+</html>

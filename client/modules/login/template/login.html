@@ -1,27 +1,27 @@
 
- 
-    <div class="container">
-      <div class="card bg-light">
-         <h5 class="card-title">Register OR login</h5><br>	         
-     	    
-     		   <div class="first">
-     			 <div class="finame">
-     			 	<h5> First Name: <input type="text" ng-model="fname" style="margin-left: 29px;"><br><br> </h5>
+ <div class="card text-center">
+   <div class="card-header">   Register    </div>
+      <div class="card-body">                    
+       <div class="first">
+            <div class="finame">
+              <label> First Name:</label> <input type="text" ng-model="fname" style="margin-left: 29px;border:none; border-bottom: 2px solid blue;" required><br><br> 
+           </div>
+            <div class="mdname">
+               <label> Middle Name: </label> <input type="text" ng-model="mname" style="margin-left: 10px; border:none;border-bottom: 2px solid blue;" required><br><br>
+            </div>
+             <div class="laname">
+               <label> Last Name: </label>  <input type="text" ng-model="lname" style="margin-left: 28px; border:none;  border-bottom: 2px solid blue;" required><br><br> 
+             </div>
+             <div class="email">
+                <labe> Email: </labe>  <input type="Email" ng-model="email" style="margin-left: 65px;border: none; border-bottom: 2px solid blue;" required><br><br> 
 
-     			 </div>
-     			 <div class="mdname">
-                     <h5> Middle Name: <input type="text" ng-model="mname" style="margin-left: 10px;"><br><br></h5>
-                 </div>
-                <div class="laname">
-                   <h5> Last Name:   <input type="text" ng-model="lname" style="margin-left: 28px;"><br><br> </h5> 
-                </div>
-                 
-	            </div>	
-            <div class="output">
-              <p> {{fname}}</p>
-               <p>{{mname}}</p>
-               <p>{{lname}}</p>
-            </div>   
-     	</div>
-      </div>	
-  	
+             </div>
+             <div class="btn">
+                 <button type="button" class="btn btn-primary" ng-click="submit()" style="margin-left: 105px;">Sign In</button>
+             </div>
+             <div class="btn">
+                 <button type="button" class="btn btn-primary" ng-click="login()">Login</button>
+             </div>
+           </div>  
+        </div> 
+      </div>

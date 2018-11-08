@@ -10,24 +10,48 @@
 }
 .finame{
 	margin-left: 20px;
+	
 }
 .mdname{
     margin-left: 20px;
+    
 }
 .laname{
    margin-left: 20px;
+   
 }
-
+.email{
+	margin-left: 20px;
+	
+}
 .card-title{
 	text-align: center;
 	margin-top: 5px;
 }
 .card{
+	max-width: 40rem;
 	margin-top: 40px;
+	margin-left: 200px;
 	border-left-width: 2px solid;
 	 color:blue;
+
 }
 .output{
 	color: red;
 	margin-left: 20px;
+}
+.fot{
+	color: white;
+}
+.info a{
+	color: white;
+    text-align:center;
+
+}
+.info1 a{
+     color: white;
+     text-align: right;
+}
+.card-body{
+	background-image: url('.././img/image1.jpeg');
 }
